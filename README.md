@@ -37,6 +37,8 @@ Proyek ini adalah aplikasi Laravel:
 
 Untuk melihat versi Laravel yang terpasang setelah `composer install`, jalankan `php artisan --version`.
 
+Composer menyelesaikan dependensi dengan target PHP 8.3 agar `composer.lock` dapat dipasang pada PHP 8.3, 8.4, dan 8.5 di GitHub Actions. Jalankan `composer update` jika sengaja memperbarui dependensi, lalu commit `composer.json` dan `composer.lock` bersama-sama.
+
 ## Fitur
 
 - Registrasi dengan nama, email, kata sandi, dan konfirmasi kata sandi.
